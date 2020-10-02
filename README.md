@@ -27,7 +27,7 @@ Now you can run the same with below command: <br>
 <code> ./output </code> <br>
 Troubleshoting: By default g++ creates executable output. If in case you have permission denied error then try command: <br>
 
-<code> chmod u+x OutputFile </code> <br>
+<code> chmod u+x output </code> <br> <br>
 <h3> Sample Input : </h3> <br>
 
 Create_parking_lot 6 <br>
