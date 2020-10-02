@@ -11,11 +11,11 @@
 <br>
 <h3> To run on mac : </h3>
 Compile using Clang
-<code> $ g++ -o main main.cpp </code>
-Run the binary executable:
+<code> $ g++ -o main main.cpp </code> <br>
+Run the binary executable: <br>
 <code> $ ./main </code>
-<br>
- Sample Input : <br>
+<br> <br>
+<h3> Sample Input : </h3> <br>
 
 Create_parking_lot 6 <br>
 Park KA-01-HH-1234 driver_age 21 <br>
