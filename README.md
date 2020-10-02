@@ -15,6 +15,19 @@ Compile using Clang
 Run the binary executable: <br>
 <code> $ ./main </code>
 <br> <br>
+<h3> To run on Unix machine :</h3> <br>
+In case of Ubuntu it doesn't have C++ compiler by default. You need to install it by below command: <br>
+
+<code> sudo apt-get install g++ </code> <br>
+Now you can compile your programs like this: <br>
+
+<code> g++ main.cpp -o output  </code> <br>
+Now you can run the same with below command: <br>
+
+<code> ./output </code> <br>
+Troubleshoting: By default g++ creates executable output. If in case you have permission denied error then try command: <br>
+
+<code> chmod u+x OutputFile </code> <br>
 <h3> Sample Input : </h3> <br>
 
 Create_parking_lot 6 <br>
