@@ -27,7 +27,15 @@ Now you can run the same with below command: <br>
 <code> ./output </code> <br>
 Troubleshoting: By default g++ creates executable output. If in case you have permission denied error then try command: <br>
 
-<code> chmod u+x output </code> <br> <br>
+<code> chmod u+x output </code> <br> 
+<h3> Or run online hassle free:</h3> <br>
+comment out following line in main.cpp <br>
+<code> freopen("input.txt", "r", stdin); </code> <br>
+<code> freopen("output.txt", "w", stdout); </code> <br>
+
+Go to <a href = "https://ideone.com/" target = "_blank"> ideone </a>, paste code in editor <br>
+provide input and click run. That's it. <br> <br>
+
 <h3> Sample Input : </h3> <br>
 
 Create_parking_lot 6 <br>
