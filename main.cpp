@@ -96,13 +96,8 @@ class parkingLot
          	 }
          }
 
-         for(auto itr = registrationNumberByAge.end(); itr != registrationNumberByAge.end(); itr++){
-         	
-            if(itr->second.count(regNum)){
-         		itr->second.erase(regNum);
-         		break;
-         	}
-         }
+         auto it = registrationNumberByAge[driversAge].find(regNum);
+         registrationNumberByAge[driversAge].erase(it);
 
          return make_pair(regNum, driversAge);
 	 }
