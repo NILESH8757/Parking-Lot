@@ -1,5 +1,5 @@
 # parkingLot
-<p> <b>Note:</b> this is a monolithic design not following any design pattern/standard. Intent to create this program was to get a running up parking lot software in minimal time </p>
+<p> <b>Note:</b> This is a monolithic program not following any design patterns/standards. Intent to create this program was to get a up running parking lot software in minimal time. </p>
 <h2> How to run : </h2>
 <ul>
   <li> Download this main.cpp file. </li>
