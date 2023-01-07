@@ -223,7 +223,8 @@ int main() {
                 if(vehicle.first == "NULL") {
             	    cout << "Slot is already available." << endl;
                 } else {
-                    cout << "Slot number " << commandWithParams[1] << " vacated, the car with vehicle registration number " << vehicle.first <<" left the space, the driver of the car was of age " << vehicle.second << endl;
+                    cout << "Slot number " << commandWithParams[1] << " vacated, the car with vehicle registration number " 
+			    << vehicle.first <<" left the space, the driver of the car was of age " << vehicle.second << endl;
                 }
     		break;
     	    case 4:
