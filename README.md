@@ -1,4 +1,4 @@
-# parkingLot
+# Parking Lot
 <p> <b>Note:</b> This is a monolithic program not following any design patterns/standards. Intent to create this program was to get a up running parking lot software in minimal time. </p>
 <h2> How to run : </h2>
 <ul>
